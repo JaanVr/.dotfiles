@@ -168,7 +168,7 @@ bar {
 exec_always i3-sensible-terminal
 
 #custom conf
-bindsym $mod+Shift+t exec i3lock-fancy
+bindsym $mod+Shift+t exec i3lock
 hide_edge_borders both
 
 # class                         border     backgr.    text     indicator child_border

@@ -1,6 +1,6 @@
 i3
 rxvt-unicode
-i3lock-fancy community package. think about how to automate installation
+i3lock
 i3blocks
 feh
 unclutter

@@ -15,3 +15,4 @@ git
 vim
 xorg
 alsa-utils
+acpi

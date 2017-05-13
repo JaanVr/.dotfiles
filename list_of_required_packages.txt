@@ -13,3 +13,4 @@ thefuck
 stow
 git
 vim
+xorg

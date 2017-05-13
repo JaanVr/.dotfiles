@@ -1,0 +1,40 @@
+softdrop=1
+rotate=2
+height=0
+level=9
+mode=1
+[stdin]
+left=LFT
+right=RGT
+up=UP
+down=DWN
+a=a
+b=b
+rot=n
+rot-a=x
+rot-b=z
+hdrop=c
+sdrop=DWN
+[term]
+bg=0
+drawing=0
+bgdot=.
+[player1]
+level=0
+height=0
+rotate=3
+[player2]
+level=0
+height=0
+rotate=3
+[hiscore]
+Øóp<{)	qdB
+Øóp<2'p‡mC
+Øóp<ƒm&	qfB
+Øóp<s+%	q€WB
+Øóp<|X$j{pB
+Øóp<o=$mOC
+Øóp<8$o}B
+Øóp<O1$m}eB
+Øóp<Vl#l|`B
+Øóp<1h#obB

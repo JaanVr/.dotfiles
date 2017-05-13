@@ -1,0 +1,15 @@
+i3
+rxvt-unicode
+i3lock-fancy community package. think about how to automate installation
+i3blocks
+feh
+unclutter
+xbindkeys
+redshift
+xorg-xrdb
+xorg-xinit
+vitetris community package
+thefuck
+stow
+git
+vim

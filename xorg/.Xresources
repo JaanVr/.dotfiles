@@ -3,3 +3,4 @@ URxvt*tintColor: #222222
 URxvt*foreground: White
 URxvt*background: #000000
 URxvt*scrollBar: False
+URxvt*fading: 50

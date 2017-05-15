@@ -25,7 +25,11 @@
 # The top properties below are applied to every block, but can be overridden.
 # Each block command defaults to the script name to avoid boilerplate.
 command=/home/jaan/.config/i3blocks/blocks/$BLOCK_NAME
-separator_block_width=15
+full_text=>
+align=center
+color=#ffffff
+separator=false
+separator_block_width=5
 markup=none
 #color=#101010
 
@@ -35,6 +39,7 @@ markup=none
 # The second parameter overrides the mixer selection
 # See the script for details.
 [volume]
+full_text=
 label=VOL
 #label=♪
 #instance=Master
@@ -42,6 +47,8 @@ label=VOL
 command=amixer get Master | grep -E -o '[0-9]{1,3}?%' | head -1
 interval=once
 signal=1
+
+[separator]
 
 # Memory usage
 #
@@ -72,17 +79,23 @@ signal=1
 # If the instance is not specified, use the interface used for default route.
 # The address can be forced to IPv4 or IPv6 with -4 or -6 switches.
 [iface]
+full_text=
 instance=enp12s0
 label=enp12s0
 color=#00FF00
 interval=10
 #separator=false
 
+[separator]
+
 [wifi]
+full_text=
 instance=wlp3s0
 interval=10
 label=WIFI
 #separator=false
+
+[separator]
 
 #[bandwidth]
 #instance=eth0
@@ -105,14 +118,18 @@ label=WIFI
 #
 # The battery instance defaults to 0.
 [battery]
+full_text=
 label=BAT
 #label=⚡
 #instance=1
 interval=30
 
+[separator]
+
 # Date Time
 #
 [time]
+full_text=
 command=date '+%d-%m-%Y %H:%M:%S'
 interval=1
 

@@ -7,5 +7,6 @@
 
 alias dot="cd ~/.dotfiles/"
 alias ls='ls --color=auto'
+alias tmux='tmux -2'
 eval "$(thefuck --alias fuck)"
 PS1='[\u@\h \W]\$ '

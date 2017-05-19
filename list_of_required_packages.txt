@@ -17,3 +17,6 @@ xorg
 alsa-utils
 acpi
 newsbeuter
+mpd
+mpc
+ncmpcpp

@@ -60,4 +60,5 @@ xbindkeys &
 redshift -l 58.5953:25.0136 &
 #export EDITOR="$(if [[ -n $DISPLAY ]]; then echo 'subl'; else echo 'nano'; fi)"
 export EDITOR='vim'
+mpd
 exec i3

@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'tpope/vim-surround'
 " Initialize plugin system
 call plug#end()
 

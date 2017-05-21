@@ -14,3 +14,6 @@ autocmd InsertEnter * :set norelativenumber
 autocmd InsertLeave * :set relativenumber
 set number
 set relativenumber 
+set incsearch
+let NERDTreeDirArrowExpandable='+'
+let NERDTreeDirArrowCollapsible='-'

@@ -168,8 +168,9 @@ bar {
 exec_always i3-sensible-terminal
 
 #custom conf
-bindsym $mod+Shift+t exec i3lock
+bindsym $mod+Shift+t exec i3lock -c 000000 -u
 #hide_edge_borders both
+#for_window [window_role="browser"] pixel 1
 new_window pixel 1
 
 # class                         border     backgr.    text     indicator child_border

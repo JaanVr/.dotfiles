@@ -17,3 +17,8 @@ set relativenumber
 set incsearch
 let NERDTreeDirArrowExpandable='+'
 let NERDTreeDirArrowCollapsible='-'
+set expandtab
+set shiftwidth=3
+set softtabstop=3
+set winheight=30
+set winminheight=5

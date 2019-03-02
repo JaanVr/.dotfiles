@@ -1,6 +1,0 @@
-browser firefox %u
-color background black black
-color listfocus black white 
-color info white black 
-color listnormal_unread white black bold
-color listfocus_unread black white bold

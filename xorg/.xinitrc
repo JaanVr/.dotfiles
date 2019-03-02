@@ -54,11 +54,17 @@ fi
 #xterm -geometry 80x20+494-0 &
 #exec xterm -geometry 80x66+0+0 -name login
 setxkbmap ee
-feh --randomize --bg-scale 'wallpaper' &
-unclutter &
+#feh --randomize --bg-scale 'wallpaper' &
+unclutter & 
 xbindkeys &
 redshift -l 58.5953:25.0136 &
 #export EDITOR="$(if [[ -n $DISPLAY ]]; then echo 'subl'; else echo 'nano'; fi)"
 export EDITOR='vim'
 mpd
-exec i3
+#exec $2
+case $2 in
+    i3|i3wm           ) wal -i "$(< "${HOME}/.cache/wal/wal")"
+                        exec i3;;
+    *                 ) wal -n -i "$(< "${HOME}/.cache/wal/wal")"
+                         exec ratpoison;;
+esac

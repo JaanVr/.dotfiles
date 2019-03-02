@@ -27,7 +27,8 @@
 command=/home/jaan/.config/i3blocks/blocks/$BLOCK_NAME
 full_text=>
 align=center
-color=#ffffff
+#NB! color overrides the statusline setting in i3 config!!!
+#color=#000000
 separator=false
 separator_block_width=5
 markup=none
@@ -42,11 +43,11 @@ markup=none
 #interval=5
 #signal=10
 
-[mpd]
-interval=5
-signal=10
+#[mpd]
+#interval=5
+#signal=10
 
-[separator]
+#[separator]
 
 # Volume indicator
 #
@@ -55,11 +56,10 @@ signal=10
 # See the script for details.
 [volume]
 full_text=
-label=VOL
+label=
 #label=♪
 #instance=Master
 #instance=PCM
-command=amixer get Master | grep -E -o '[0-9]{1,3}?%' | head -1
 interval=once
 signal=1
 
@@ -97,7 +97,7 @@ signal=1
 full_text=
 instance=enp12s0
 label=enp12s0
-color=#00FF00
+#color=#00FF00
 interval=10
 #separator=false
 
@@ -107,7 +107,7 @@ interval=10
 full_text=
 instance=wlp3s0
 interval=10
-label=WIFI
+label=
 #separator=false
 
 [separator]
@@ -134,7 +134,7 @@ label=WIFI
 # The battery instance defaults to 0.
 [battery]
 full_text=
-label=BAT
+label=
 #label=⚡
 #instance=1
 interval=30

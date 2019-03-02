@@ -1,40 +1,40 @@
-mode=1
-level=9
-height=0
-rotate=2
 softdrop=1
-[player2]
 rotate=3
 height=0
-level=0
-[player1]
-rotate=3
-height=0
-level=0
-[term]
-bgdot=.
-drawing=0
-bg=0
+level=9
+mode=1
+host=leib.xyz:34034
+name=jaanv
 [stdin]
 left=LFT
 right=RGT
 up=UP
 down=DWN
-a=a
-b=b
 rot=n
 rot-a=x
 rot-b=z
 hdrop=c
 sdrop=DWN
+[term]
+bg=0
+drawing=0
+bgdot=.
+[player1]
+level=0
+height=0
+rotate=3
+[player2]
+level=0
+height=0
+rotate=3
 [hiscore]
-Øóp<{)	qdB
-Øóp<2'p‡mC
-Øóp<ƒm&	qfB
-Øóp<s+%	q€WB
-Øóp<|X$j{pB
-Øóp<o=$mOC
-Øóp<8$o}B
-Øóp<O1$m}eB
-Øóp<Vl#l|`B
-Øóp<1h#obB
+Øóp<pM6n†pC
+Øóp<ZH0pˆrC
+Øóp<~)0l„wC
+Øóp<s€/	qŠ}C
+Øóp<|(/j€bC
+Øóp<] /k‚oC
+Øóp<_….m‚[C
+Øóp<pk.nƒTC
+Xò‡,m…rC
+Øóp</h,m…sC

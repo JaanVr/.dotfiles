@@ -4,11 +4,13 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-fugitive'
+Plug 'dylanaraps/wal.vim'
 " Initialize plugin system
 call plug#end()
 
-let g:molokai_original = 1
-:colorscheme molokai
+colorscheme wal
+"let g:molokai_original = 1
+":colorscheme molokai
 :syntax on
 autocmd InsertEnter * :set norelativenumber
 autocmd InsertLeave * :set relativenumber
@@ -22,3 +24,4 @@ set shiftwidth=3
 set softtabstop=3
 set winheight=30
 set winminheight=5
+autocmd VimEnter * NERDTree

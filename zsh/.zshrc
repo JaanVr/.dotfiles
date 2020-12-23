@@ -32,6 +32,12 @@ export SUDO_ASKPASS=~/scripts/dpass.sh
 alias dot="cd ~/.dotfiles/"
 alias ls='ls --color=auto'
 alias tmux='tmux -2'
+alias mpvc='mpv -vo=drm'
+#TODO add file preview. fzf already uses find in backend so reduntant?
+alias se='vim -c "cd %:p:h" "$(find scripts .dotfiles repos/suckless repos/projects -type f | grep -v -F ".git/" | fzf --prompt="edit " --layout reverse --preview "head -n 50 {1}")"'
+alias si='pacman -Slq | fzf --layout reverse --prompt="install " --multi --preview-window wrap --preview "pacman -Si {1}" | xargs -ro sudo pacman -S'
+alias sr='pacman -Qqe | fzf --layout reverse --prompt="remove " --multi --preview-window wrap --preview "pacman -Qi {1}" | xargs -ro sudo pacman -Rns'
+
 
 # Change cursor shape for different vi modes.
 function zle-keymap-select {
@@ -71,3 +77,6 @@ zstyle ':vcs_info:*' enable git
 
 #syntax highlighting
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
+
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
